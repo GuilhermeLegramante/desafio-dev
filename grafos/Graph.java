@@ -142,6 +142,15 @@ public class Graph {
         // arbitrary destination 
         int d = 4; 
       
+        System.out.println("A = 0");
+        System.out.println("B = 1");
+        System.out.println("C = 2");
+        System.out.println("D = 3");
+        System.out.println("E = 4");
+        System.out.println("F = 5");
+        System.out.println("G = 6");
+        System.out.println("");
+      
         System.out.println("Possíveis caminhos entre "+s+" e "+d); 
         g.printAllPaths(s, d); 
   
