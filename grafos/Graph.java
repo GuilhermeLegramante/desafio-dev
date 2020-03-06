@@ -142,7 +142,7 @@ public class Graph {
         // arbitrary destination 
         int d = 4; 
       
-        System.out.println("Following are all different paths from "+s+" to "+d); 
+        System.out.println("Possíveis caminhos entre "+s+" e "+d); 
         g.printAllPaths(s, d); 
   
     } 
